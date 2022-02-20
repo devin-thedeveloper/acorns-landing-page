@@ -885,10 +885,10 @@ header {
     width: 100%;
   }
   .invest_info-section {
-    width: 80%;
+    width: 90%;
   }
   .invest_card {
-    width: 85%;
+    width: 90%;
   }
   .secure_section,
   .smarter_section,
@@ -898,7 +898,7 @@ header {
   .secure_info,
   .smarter_info,
   .round-up_info {
-    width: 80%;
+    width: 90%;
     padding: 50px 0;
   }
   .secure_info {
