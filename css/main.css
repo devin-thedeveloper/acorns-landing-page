@@ -200,7 +200,6 @@ header {
   flex-direction: column;
   align-items: center;
   color: white;
-  padding-right: 1rem;
 }
 .feature-icon i {
   font-size: 3.5rem;
@@ -885,6 +884,12 @@ header {
   .top-jumbo_hero-image img {
     width: 100%;
   }
+  .invest_info-section {
+    width: 80%;
+  }
+  .invest_card {
+    width: 85%;
+  }
   .secure_section,
   .smarter_section,
   .round-up_section {
@@ -894,6 +899,24 @@ header {
   .smarter_info,
   .round-up_info {
     width: 80%;
+    padding: 50px 0;
+  }
+  .secure_info {
+    padding-bottom: 0;
+  }
+  .smarter_info h2,
+  .round-up_info h2 {
+    margin-bottom: 3rem;
+  }
+  .round-up_img img {
+    right: 25px;
+  }
+  .smarter_img {
+    display: flex;
+    justify-content: center;
+  }
+  .smarter_img img {
+    width: 150%;
   }
   #contact {
     margin: 50px 10px;
@@ -903,6 +926,9 @@ header {
   }
   .contact_email-area {
     max-width: 100%;
+  }
+  .questions p {
+    margin-bottom: 1rem;
   }
   .footer_bottom {
     flex-direction: column;
